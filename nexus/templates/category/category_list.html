@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if user.is_authenticated %}
+      <div class="container">
+        <h3 class="text-center m-5 text-secondary">"One Place for All Your Links, Categorized for You"</h3>
+
+        <div class="row d-flex flex-column justify-content-center align-items-center ">
+            <a class="btn btn-primary btn-lg" href="{% url 'category_create' %}">Add Category</a>
+        </div>
+      </div>
+      {% endif %}
+    <ul class="list-unstyled d-flex flex-wrap justify-content-center">
+        {% for category in categories %}
+            <li class="m-3 cursor-pointer">
+                <a href="{% url 'category_detail' category.id %}" style="text-decoration: none;">
+                    <div class="card hover-shadow" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-primary" style="user-select: none;">{{ category.title }}</h5>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock content %}
+

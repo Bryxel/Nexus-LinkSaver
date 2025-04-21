@@ -139,4 +139,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_URL = '/login/'
 
-ALLOWED_HOSTS = ['nexus-linksaver.onrender.com']
+ALLOWED_HOSTS = ['nexus-linksaver.onrender.com', '127.0.0.1']

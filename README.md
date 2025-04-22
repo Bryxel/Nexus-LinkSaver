@@ -7,7 +7,7 @@ The app is **deployed on Render**. You can access it at:
 https://nexus-linksaver.onrender.com/
 
 
-**Tech Stack**
+-**Tech Stack**
 
 Backend: Django, Python
 
@@ -20,7 +20,7 @@ Version Control: Git, GitHub
 Deployment: Render (for cloud deployment)
 
 
-**Setup/Installation**
+-**Setup/Installation**
 
 Clone repo
   git clone https://github.com/Bryxel/Nexus-LinkSaver.git

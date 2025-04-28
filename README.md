@@ -1,6 +1,6 @@
 # Nexus LinkSaver
 - A full-stack web application built with **Django** for saving and managing user links through CATEGORIES. 
-It supports** User Authentication**, allowing users to create accounts, log in, and save links securely. 
+It supports **User Authentication**, allowing users to create accounts, log in, and save links securely. 
 The app is deployed on Render with a PostgreSQL database backend.
 
 The app is **deployed on Render**. You can access it at:
